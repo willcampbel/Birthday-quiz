@@ -43,13 +43,13 @@ month = month_name[todaymonth]
 
 name = input("Hi, what is your name? ") 
 month = input("Hello "+name+", what was the name of the month you were born in? ")
-year = input("And what year were you born in, "+name+"? ")
-day = input("And the day? ") 
+year = int(input("And what year were you born in, "+name+"? "))
+day = int(input("And the day? ") )
 
 if year < 1980:
-print("You are really old, " +name+"!")
-if year >1999 
-print("You are quite young, " 
+    print("You are really old,"+name+"!")
+if year > 1999:
+    print("You are quite young, "+name+"!")
 
 
 
