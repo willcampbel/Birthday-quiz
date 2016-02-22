@@ -47,43 +47,54 @@ year = int(input("And what year were you born in, "+name+"? "))
 day = int(input("And the day? ") )
 
 if month == "January":
-    monthnumb = 1
+    monthnumber = 1
 elif month == "February":
-    monthnumb = 2
+    monthnumber = 2
 elif month == "March":
-    monthnumb = 3
+    monthnumber = 3
 elif month == "April":
-    monthnumb = 4
+    monthnumber = 4
 elif month == "May":
-    monthnumb = 5
+    monthnumber = 5
 elif month == "June":
-    monthnumb = 6
+    monthnumber = 6
 elif month == "July":
-    monthnumb = 7
+    monthnumber = 7
 elif month == "August":
-    monthnumb = 8
+    monthnumber = 8
 elif month == "September":
-    monthnumb = 9
+    monthnumber = 9
 elif month == "October":
-    monthnumb = 10
+    monthnumber = 10
 elif month == "November":
-    monthnumb = 11
+    monthnumber = 11
 elif month == "December":
-    monthnumb = 12
+    monthnumber = 12
 
-
-
-
-if 1980 <= year <= 1989 
-    dec = "the 80's"
+if 1980 <= year <= 1989: 
+    dec= "the 80's"
 elif 1990 <= year <= 1999:
     dec= "the 90's"
 elif year < 1980:
-    dec = "the stone age"
+    dec= "the stone age"
 
+if 1 <= monthnumber <= 2: 
+    season = "winter"
+elif 3 <= monthnumber <= 5:
+    season = "spring"
+elif 6 <= monthnumber <= 8:
+    season = "summer"
+elif 9 <= monthnumber <= 11:
+    season = "fall"
+elif monthnumber ==12:
+        season = "fall" 
+"""
+Remember to put in Halloween
+"""
+if month == "October" and day == 31:
+    print(+name+ ", you were born on Halloween.")
 
-
-
+print(+name+", you are a "+season+" baby of the "+decade+". ")
 
 
 
