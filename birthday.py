@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Will Campbell
-Credit: none
+Credit: Eli
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -46,10 +46,40 @@ month = input("Hello "+name+", what was the name of the month you were born in? 
 year = int(input("And what year were you born in, "+name+"? "))
 day = int(input("And the day? ") )
 
-if year < 1980:
+if month == "January":
+    monthnumb = 1
+elif month == "February":
+    monthnumb = 2
+elif month == "March":
+    monthnumb = 3
+elif month == "April":
+    monthnumb = 4
+elif month == "May":
+    monthnumb = 5
+elif month == "June":
+    monthnumb = 6
+elif month == "July":
+    monthnumb = 7
+elif month == "August":
+    monthnumb = 8
+elif month == "September":
+    monthnumb = 9
+elif month == "October":
+    monthnumb = 10
+elif month == "November":
+    monthnumb = 11
+elif month == "December":
+    monthnumb = 12
+
+
+
+
+if year <= 1980:
     print("You are really old,"+name+"!")
 if year > 1999:
     print("You are quite young, "+name+"!")
+
+
 
 
 
