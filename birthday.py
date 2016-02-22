@@ -74,10 +74,12 @@ elif month == "December":
 
 
 
-if year <= 1980:
-    print("You are really old,"+name+"!")
-if year > 1999:
-    print("You are quite young, "+name+"!")
+if 1980 <= year <= 1989 
+    dec = "the 80's"
+elif 1990 <= year <= 1999:
+    dec= "the 90's"
+elif year < 1980:
+    dec = "the stone age"
 
 
 
