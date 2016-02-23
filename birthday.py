@@ -80,7 +80,7 @@ else:
     
     if 1980 <= year <= 1989: 
         dec= "the eighties"
-    elif year => 2000: 
+    elif year >= 2000: 
         dec= "the two thousands"
     elif 1990 <= year <= 1999:
         dec= "the nineties"
