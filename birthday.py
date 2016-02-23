@@ -72,9 +72,9 @@ elif month == "December":
     monthnumber = 12
 
 if 1980 <= year <= 1989: 
-    dec= "the 80's"
+    dec= "the eighties"
 elif 1990 <= year <= 1999:
-    dec= "the 90's"
+    dec= "the nineties"
 elif year < 1980:
     dec= "the stone age"
 
@@ -94,7 +94,7 @@ Remember to put in Halloween
 if month == "October" and day == 31:
     print(+name+ ", you were born on Halloween.")
 
-print(+name+", you are a "+season+" baby of the "+decade+". ")
+print(name+", you are a "+season+" baby of the "+dec+".")
 
 
 
