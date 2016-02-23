@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Will Campbell
-Credit: Eli 
+Credit: Eli Woloshin
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -83,7 +83,7 @@ else:
     elif 1990 <= year <= 1999:
         dec= "the nineties"
     elif year < 1980:
-        dec= "the stone age"
+        dec= "the Stone Age"
     
     if 1 <= monthnumber <= 2: 
         season = "winter"
