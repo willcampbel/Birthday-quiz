@@ -45,15 +45,7 @@ name = input("Hello, what is your name? ")
 month = input("Hello "+name+", what was the name of the month you were born in? ")
 year = int(input("And what year were you born in, "+name+"? "))
 
-day = int(input("And the day? ") )
-if month == "October" and day == 31:
-    print("You were born on Halloween!")
-elif monthnumber == todaymonth and day == todaydate:
-    print("Happy birthday!")
-else:
-    
-    
-    if month == "January":
+if month == "January":
         monthnumber = 1
     elif month == "February":
         monthnumber = 2
@@ -97,6 +89,16 @@ else:
         season = "fall"
     elif monthnumber ==12:
             season = "fall" 
+
+day = int(input("And the day? ") )
+if month == "October" and day == 31:
+    print("You were born on Halloween!")
+elif monthnumber == todaymonth and day == todaydate:
+    print("Happy birthday!")
+else:
+    
+    
+    
             
     print(name+", you are a "+season+" baby of the "+dec+".")
     
