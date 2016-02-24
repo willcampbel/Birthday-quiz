@@ -46,29 +46,29 @@ month = input("Hello "+name+", what was the name of the month you were born in? 
 year = int(input("And what year were you born in, "+name+"? "))
 
 if month == "January":
-        monthnumber = 1
-    elif month == "February":
-        monthnumber = 2
-    elif month == "March":
-        monthnumber = 3
-    elif month == "April":
-        monthnumber = 4
-    elif month == "May":
-        monthnumber = 5
-    elif month == "June":
-        monthnumber = 6
-    elif month == "July":
-        monthnumber = 7
-    elif month == "August":
-        monthnumber = 8
-    elif month == "September":
-        monthnumber = 9
-    elif month == "October":
-        monthnumber = 10
-    elif month == "November":
-        monthnumber = 11
-    elif month == "December":
-        monthnumber = 12
+    monthnumber = 1
+elif month == "February":
+    monthnumber = 2
+elif month == "March":
+    monthnumber = 3
+elif month == "April":
+    monthnumber = 4
+elif month == "May":
+    monthnumber = 5
+elif month == "June":
+    monthnumber = 6
+elif month == "July":
+    monthnumber = 7
+elif month == "August":
+    monthnumber = 8
+elif month == "September":
+    monthnumber = 9
+elif month == "October":
+    monthnumber = 10
+elif month == "November":
+    monthnumber = 11
+elif month == "December":
+    monthnumber = 12
     
     if 1980 <= year <= 1989: 
         dec= "the eighties"
@@ -97,9 +97,6 @@ elif monthnumber == todaymonth and day == todaydate:
     print("Happy birthday!")
 else:
     
-    
-    
-            
     print(name+", you are a "+season+" baby of the "+dec+".")
     
     
