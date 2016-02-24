@@ -42,7 +42,7 @@ todaydate = datetime.today().day
 month = month_name[todaymonth]
 
 name = input("Hello, what is your name? ") 
-month = input("Hello "+name+", what was the name of the month you were born in? ")
+month = input("Hi "+name+", what was the name of the month you were born in? ")
 year = int(input("And what year were you born in, "+name+"? "))
 
 if month == "January":
@@ -90,7 +90,7 @@ elif month == "December":
     elif monthnumber ==12:
             season = "fall" 
 
-day = int(input("And the day? ") )
+day = int(input("And the day?") )
 if month == "October" and day == 31:
     print("You were born on Halloween!")
 elif monthnumber == todaymonth and day == todaydate:
