@@ -88,7 +88,7 @@ elif month == "December":
     elif 9 <= monthnumber <= 11:
         season = "fall"
     elif monthnumber ==12:
-            season = "fall" 
+        season = "fall" 
 
 day = int(input("And the day?") )
 if month == "October" and day == 31:
