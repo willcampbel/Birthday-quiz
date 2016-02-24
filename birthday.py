@@ -90,7 +90,7 @@ elif month == "December":
     elif monthnumber ==12:
         season = "fall" 
 
-day = int(input("And the day?") )
+day = int(input("And the day? ") )
 if month == "October" and day == 31:
     print("You were born on Halloween!")
 elif monthnumber == todaymonth and day == todaydate:
