@@ -70,25 +70,25 @@ elif month == "November":
 elif month == "December":
     monthnumber = 12
     
-    if 1980 <= year <= 1989: 
-        dec= "the eighties"
-    elif year >= 2000: 
-        dec= "the two thousands"
-    elif 1990 <= year <= 1999:
-        dec= "the nineties"
-    elif year < 1980:
-        dec= "the Stone Age"
-    
-    if 1 <= monthnumber <= 2: 
-        season = "winter"
-    elif 3 <= monthnumber <= 5:
-        season = "spring"
-    elif 6 <= monthnumber <= 8:
-        season = "summer"
-    elif 9 <= monthnumber <= 11:
-        season = "fall"
-    elif monthnumber ==12:
-        season = "fall" 
+if 1980 <= year <= 1989: 
+    dec= "the eighties"
+elif year >= 2000: 
+    dec= "the two thousands"
+elif 1990 <= year <= 1999:
+    dec= "the nineties"
+elif year < 1980:
+    dec= "the Stone Age"
+
+if 1 <= monthnumber <= 2: 
+    season = "winter"
+elif 3 <= monthnumber <= 5:
+    season = "spring"
+elif 6 <= monthnumber <= 8:
+    season = "summer"
+elif 9 <= monthnumber <= 11:
+    season = "fall"
+elif monthnumber ==12:
+    season = "fall" 
 
 day = int(input("And the day? ") )
 if month == "October" and day == 31:
